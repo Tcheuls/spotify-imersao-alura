@@ -98,7 +98,7 @@ body {
     color: #b3b3b3;
     font-weight: 600;
     font-size: 14px;
-    margin: 8px 0px;
+    margin: 8px 0;
     padding: 16px 20px;
     border-radius: 10px;
 }
@@ -134,7 +134,7 @@ body {
     text-transform: none;
     padding: 10px;
     margin-top: 12px;
-    border: 0px;
+    border: 0;
     width: 113px;
 }
 
@@ -170,15 +170,15 @@ body {
     display: flex;
     justify-content: space-between;
     position: fixed;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
     background: linear-gradient(to right, #7F00FF, #FC5669, #D81FFF, #FC56CD);
     padding: 15px 40px;
 }
 
 .disclaimer-premium .text {
-    flex-shrink: 0px;
+    flex-shrink: 0;
 }
 
 .disclaimer-premium .disclaimer-premium__title {
@@ -201,8 +201,8 @@ body {
     font-weight: bold;
     font-size: 16px;
     padding: 14px 30px;
-    border: 0px;
+    border: 0;
     border-radius: 40px;
     cursor: pointer;
-    flex-shrink: 0px;
+    flex-shrink: 0;
 }
